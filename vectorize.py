@@ -20,7 +20,6 @@ from nltk.stem.porter import PorterStemmer
 import re
 
 from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
 
 corpus = []
 for date, row in yelp.text.iteritems():
